@@ -1,0 +1,24 @@
+{
+  "name": "jsbenchmark",
+  "version": "1.0.0",
+  "description": "A bunch of benchmark on different javascript functions / algorithm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shiranuit/JSBenchmark.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shiranuit/JSBenchmark/issues"
+  },
+  "homepage": "https://github.com/Shiranuit/JSBenchmark#readme",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "microtime": "^3.0.0",
+    "rand-seed": "^1.0.1"
+  }
+}
