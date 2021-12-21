@@ -2,7 +2,8 @@ class UniqueWithSet {
   constructor(arraySize, PRNG) {
     this.array = [];
     for (let i = 0; i < arraySize; i++) {
-      this.array.push(Math.floor(PRNG.next() * arraySize).toString());
+      const value = (Math.floor(PRNG.next() * arraySize) % (arraySize >> 1)).toString();
+      this.array.push(value).toString();
     }
   }
 
